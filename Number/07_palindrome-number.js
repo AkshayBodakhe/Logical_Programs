@@ -11,3 +11,6 @@ const reverseNumber = (num) => {
 const number = 12321
 const result = reverseNumber(number);
 console.log(result);
+
+
+// the same program is used for reversing the number // 06_reverse-number.js
