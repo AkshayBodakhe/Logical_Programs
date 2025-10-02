@@ -1,7 +1,6 @@
 
-
 const checkEvenOdd = (number) => {
-    if(typeof number !== "number"){
+    if(typeof number !== "number" || Number.isNaN(number)){
         return "value is not a number"
     }
     if(number % 2 === 0){
@@ -12,6 +11,6 @@ const checkEvenOdd = (number) => {
 }
 
 
-const number = 2
+const number = NaN
 const result = checkEvenOdd(number)
 console.log(result)
